@@ -3,4 +3,4 @@ logo: assets/images/Screenshot_20240718_231953_Gallery.jpg
 show_downloads: true
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
--jeky11-remote-theme
+- jeky11-remote-theme
