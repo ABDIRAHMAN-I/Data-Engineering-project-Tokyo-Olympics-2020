@@ -86,6 +86,71 @@ The data is sourced from Kaggle (an Excel extract). [see here to find it.](https
 
 
 
+# Stages
+
+- Design
+- Developement
+- Testing
+- Analysis 
+ 
+
+
+# Design 
+
+## Dashboard components required 
+- What should the dashboard contain based on the requirements provided?
+
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+
+1. Which countries are the top 10 in terms of total medal count?
+2. Which 3 countries have the most gold medals?
+3. Which 3 countries have the most silver medals?
+4. Which 3 countries have the most bronze medals?
+5. Which countries have the highest medals per capita ratio?
+6. Which countries have the highest gold medal efficiency (gold medals per event participated)?
+7. Which countries have the highest overall ranking in specific sports/events?
+
+For now, these are some of the questions we need to answer; this may change as we progress through our analysis. 
+
+
+## Dashboard mockup
+
+-Proposed Dashboard Components
+
+* Top 10 Countries by Total Medal Count: Bar chart showing the top 10 countries with the highest total medals.
+
+* Top 3 Countries by Gold Medals: Pie chart or bar chart showing the top 3 countries with the highest number of gold medals.
+
+* Top 3 Countries by Silver Medals: Pie chart or bar chart showing the top 3 countries with the highest number of silver medals.
+
+* Top 3 Countries by Bronze Medals: Pie chart or bar chart showing the top 3 countries with the highest number of bronze medals.
+
+* Medals Per Capita: Table or bar chart showing the top countries with the highest medals per capita ratio.
+
+* Gold Medal Efficiency: Table or bar chart showing the top countries with the highest gold medals per event participated.
+
+* Event-Specific Performance: Interactive filter or dropdown to select specific sports/events and see the ranking of countries in those events.
+
+* Overall Medal Distribution: Heatmap or geographic map showing the distribution of medals across different countries.
+
+- User Interaction Features
+  
+* Interactive Filters: Filters to view data by specific regions, sports/events, or medal types (gold, silver, bronze).
+
+* Search Functionality: Ability to search for specific countries to see their detailed performance.
+
+* Time Series Analysis: Line chart showing the trend of medal counts over the duration of the 2021 Olympics.
+  
+* Comparison Tool: Feature to compare the performance of selected countries across different metrics.
+  
+By including these components, the dashboard will provide comprehensive insights into the performance of countries in the 2021 Olympics, helping the marketing team make informed decisions for future campaigns.
+
+
+
+
+
+
+
 
 
 
