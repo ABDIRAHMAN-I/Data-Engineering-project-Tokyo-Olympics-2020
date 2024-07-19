@@ -98,7 +98,8 @@ The data is sourced from Kaggle (an Excel extract). [see here to find it.](https
 # Design 
 
 ## Dashboard components required 
-- What should the dashboard contain based on the requirements provided?
+
+What should the dashboard contain based on the requirements provided?
 
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
@@ -115,7 +116,7 @@ For now, these are some of the questions we need to answer; this may change as w
 
 ## Dashboard mockup
 
-- Proposed Dashboard Components
+Proposed Dashboard Components
 
 * Top 10 Countries by Total Medal Count: Bar chart showing the top 10 countries with the highest total medals.
 
@@ -135,7 +136,7 @@ For now, these are some of the questions we need to answer; this may change as w
 
 
 
-- User Interaction Features
+User Interaction Features
   
 * Interactive Filters: Filters to view data by specific regions, sports/events, or medal types (gold, silver, bronze).
 
