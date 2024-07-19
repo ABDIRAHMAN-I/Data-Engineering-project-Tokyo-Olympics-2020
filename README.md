@@ -63,3 +63,30 @@ As the Head of Marketing, I want to use a dashboard that analyzes the performanc
 This dashboard should allow me to identify the top-performing countries based on metrics like total medal count and event-specific success.
 
 With this information, I can make more informed decisions about which countries' teams are right to target for future marketing campaigns, and therefore maximize the effectiveness of each marketing campaign.
+
+
+# Data source 
+
+- What data is needed to achieve our objective?
+
+We need data on the performance of countries in the 2021 Olympics that includes:
+
+- Country names
+- Total medal count
+- Number of gold medals
+- Number of silver medals
+- Number of bronze medals
+- Overall ranking
+- Event-specific performance data
+
+  
+- Where is the data coming from?
+
+The data is sourced from Kaggle (an Excel extract). [see here to find it.](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
+
+
+
+
+
+
+
