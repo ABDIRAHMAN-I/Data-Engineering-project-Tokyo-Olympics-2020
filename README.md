@@ -115,7 +115,7 @@ For now, these are some of the questions we need to answer; this may change as w
 
 ## Dashboard mockup
 
--Proposed Dashboard Components
+- Proposed Dashboard Components
 
 * Top 10 Countries by Total Medal Count: Bar chart showing the top 10 countries with the highest total medals.
 
@@ -132,6 +132,8 @@ For now, these are some of the questions we need to answer; this may change as w
 * Event-Specific Performance: Interactive filter or dropdown to select specific sports/events and see the ranking of countries in those events.
 
 * Overall Medal Distribution: Heatmap or geographic map showing the distribution of medals across different countries.
+
+
 
 - User Interaction Features
   
