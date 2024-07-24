@@ -3,4 +3,6 @@
 git add .gitattributes
 git commit -m "Add .gitattributes file to set text and encoding for CSV files"
 
+git push origin main
+
 
