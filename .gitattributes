@@ -1,7 +1,1 @@
 *.csv text working-tree-encoding=CP1252
-cd /path/to/your/repository
-touch .gitattributes
-echo "*.csv text working-tree-encoding=CP1252" >> .gitattributes
-git add .gitattributes
-git commit -m "Add .gitattributes file to set text and encoding for CSV files"
-git push origin main
