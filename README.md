@@ -139,7 +139,22 @@ Some of the data visuals that may be appropriate in answering our questions incl
 - martix table
 - tree map
 
-![Dashboard-Mockup](assets/images/Mock up dashboard tokyo olympics.png)
+![Dashboard-Mockup](https://github.com/ABDIRAHMAN-I/Olympic-2021-data/blob/main/assets/images/Mock%20up%20dashboard%20tokyo%20olympics.png)
+
+
+## Tools 
+
+| Tool | Purpose |
+| --- | --- |
+| Excel | Initial exploring of the data |
+| Azure Data factory | Extracting data and ingesting into storage account |
+| Azure Data Lake | To store raw and transformed data |
+| Azure Databricks | To process and transform the raw data using Spark code |
+| Azure Synapse Analytics | Run SQL queries on the transformed data using Azure Synapse Analytics to derive meaningful insights |
+| Power BI | Visualizing the data via interactive dashboards |
+| GitHub | Hosting the project documentation and version control |
+| Mokkup AI | Designing the wireframe/mockup of the dashboard | 
+
 
 
 
