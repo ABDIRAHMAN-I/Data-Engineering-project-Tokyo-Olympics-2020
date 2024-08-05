@@ -131,30 +131,15 @@ For now, these are some of the questions we need to answer; this may change as w
 
 ## Dashboard mockup
 
-Proposed Dashboard Components
+What should it look like?
 
-*  Total medals won by each country: Display a bar chart highlighting the top 5 countries with the highest total medal count.
+Some of the data visuals that may be appropriate in answering our questions include:
+- Bar chart
+- pie chart
+- martix table
+- tree map
 
-* Total Gold, Silver and bronze medals won by top 10 countries: Present a matrix table showing the distribution of Gold, Silver, and Bronze medals for the top 10 countries. This table will allow cross-highlighting of elements with other visuals on the report page for interactive analysis.
-
-* All sports based on number of athletes: Create a tree map to quickly identify the top sports based on the number of athletes participating, providing a visual representation of athlete distribution across various sports.
-
-* Percentage of men and women in top 3 sports: Use a pie chart to compare the percentage of male and female athletes in the top 3 sports, offering a clear visual of gender representation in these sports.
-
-
-
-
-User Interaction Features
-  
-* Interactive Filters: Filters to view data by specific regions, sports/events, or medal types (gold, silver, bronze).
-
-* Search Functionality: Ability to search for specific countries to see their detailed performance.
-
-* Time Series Analysis: Line chart showing the trend of medal counts over the duration of the 2021 Olympics.
-  
-* Comparison Tool: Feature to compare the performance of selected countries across different metrics.
-  
-By including these components, the dashboard will provide comprehensive insights into the performance of countries in the 2021 Olympics, helping the marketing team make informed decisions for future campaigns.
+![Dashboard-Mockup](assets/images/Mock up dashboard tokyo olympics.png)
 
 
 
