@@ -186,22 +186,36 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 3. We have more data than we need, so some of these tables would not be needed.
 
 
-## Data cleaning  
-- What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
+
+## Create a storage account on Azure
+- create storage account
+- create a container and put two folders in there one for the raw data and the other for the transformed data.
+
+## Create data factory to ingest data into storage account
+- create data factory
+- create a self hosted integration runtime in order to connect to your on-premise data 
+- create a linked service which is linked to your laptop
+- create your pipeline to ingest data into your storage account from your laptop
+- configure the source 
+- configure the sink
+
+
+## Data Transformation 
+
+- create databricks
+- create a compute (because our spark code needs to run somewhere)
+- configure the notebook to connect your Databricks to your storage account
+- read your data on notebooks
+- start transforming the data 
+What do we expect the transformed data to look like? (What should it contain? What contraints should we apply to it?)
 
 The aim is to refine our dataset to ensure it is structured and ready for analysis. 
 
-The cleaned data should meet the following criteria and constraints:
+The transformed data should meet the following criteria and constraints:
 
-- Only relevant columns should be retained.
-- All data types should be appropriate for the contents of each column.
-- No column should contain null values, indicating complete data for all records.
-- Rename column names
+- Rename column names correctly using this code **athletes = athletes.withColumnRenamed("NOC", "Country")**
 
 
-
-
-athletes = athletes.withColumnRenamed("NOC", "Country")
 print("DataFrame with Renamed Columns:")
 athletes.show()
 
@@ -231,10 +245,11 @@ DataFrame with Renamed Columns:
 
 
 
+- fix all the schemas using this code **.option("inferSchema","true")**
 
-![Dashboard-Mockup]()
+![Fix the schemas](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/fix%20schemas.png)
 
 
 
-
+- Move your transformed data into the **transformed data folder** in your ADLS storage account
 
