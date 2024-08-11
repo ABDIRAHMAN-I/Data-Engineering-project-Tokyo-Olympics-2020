@@ -18,18 +18,16 @@
 - [Development](#development)
   - [Pseudocode](#pseudocode)
   - [Data Exploration](#data-exploration)
-  - [Data Cleaning](#data-cleaning)
-  - [Transform the Data](#transform-the-data)
-  - [Create the SQL View](#create-the-sql-view)
-- [Testing](#testing)
-  - [Data Quality Tests](#data-quality-tests)
-- [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measures](#dax-measures)
+  - [Create a storage account](#Create-a-storage-account)
+  - [Create data factory](#Create-data-factory)
+  - [Data Transformation](#Data-Transformation )
 - [Analysis](#analysis)
   - [Findings](#findings)
   - [Validation](#validation)
   - [Discovery](#discovery)
+- [Visualization](#visualization)
+  - [Results](#results)
+  - [DAX Measures](#dax-measures)
 - [Recommendations](#recommendations)
   - [Potential ROI](#potential-roi)
   - [Potential Courses of Actions](#potential-courses-of-actions)
@@ -187,12 +185,12 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 
 
-## Create a storage account on Azure
+## Create a storage account
 - create storage account
 - create a container and put two folders in there one for the raw data and the other for the transformed data.
 
-## Create data factory to ingest data into storage account
-- create data factory
+## Create data factory
+- create data factory to ingest data into storage account
 - create a self hosted integration runtime in order to connect to your on-premise data 
 - create a linked service which is linked to your laptop
 - create your pipeline to ingest data into your storage account from your laptop
