@@ -196,32 +196,39 @@ The cleaned data should meet the following criteria and constraints:
 - Only relevant columns should be retained.
 - All data types should be appropriate for the contents of each column.
 - No column should contain null values, indicating complete data for all records.
-
-STOPPED HERE
-
-Below is a table outlining the constraints on our cleaned dataset:
-
-| Property | Description |
-| --- | --- |
-| Number of Rows | 100 |
-| Number of Columns | 4 |
-
-And here is a tabular representation of the expected schema for the clean data:
-
-| Column Name | Data Type | Nullable |
-| --- | --- | --- |
-| channel_name | VARCHAR | NO |
-| total_subscribers | INTEGER | NO |
-| total_views | INTEGER | NO |
-| total_videos | INTEGER | NO |
+- Rename column names
 
 
 
-- What steps are needed to clean and shape the data into the desired format?
 
-1. Remove unnecessary columns by only selecting the ones you need
-2. Extract Youtube channel names from the first column
-3. Rename columns using aliases
+athletes = athletes.withColumnRenamed("NOC", "Country")
+print("DataFrame with Renamed Columns:")
+athletes.show()
+
+DataFrame with Renamed Columns:
+| Name                    | Country                       | Discipline            |
+|-------------------------|-------------------------------|-----------------------|
+| AALERUD Katrine          | Norway                        | Cycling Road          |
+| ABAD Nestor              | Spain                         | Artistic Gymnastics   |
+| ABAGNALE Giovanni        | Italy                         | Rowing                |
+| ABALDE Alberto           | Spain                         | Basketball            |
+| ABALDE Tamara            | Spain                         | Basketball            |
+| ABALO Luc                | France                        | Handball              |
+| ABAROA Cesar             | Chile                         | Rowing                |
+| ABASS Abobakr            | Sudan                         | Swimming              |
+| ABBASALI Hamideh         | Islamic Republic of Iran      | Karate                |
+| ABBASOV Islam            | Azerbaijan                    | Wrestling             |
+| ABBINGH Lois             | Netherlands                   | Handball              |
+| ABBOT Emily              | Australia                     | Rhythmic Gymnastics   |
+| ABBOTT Monica            | United States of America      | Baseball/Softball     |
+| ABDALLA Abubaker Haydar  | Qatar                         | Athletics             |
+| ABDALLA Maryam           | Egypt                         | Artistic Swimming     |
+| ABDALLAH Shahd           | Egypt                         | Artistic Swimming     |
+| ABDALRASOOL Mohamed      | Sudan                         | Judo                  |
+| ABDEL LATIF Radwa        | Egypt                         | Shooting              |
+| ABDEL RAZEK Samy         | Egypt                         | Shooting              |
+| ABDELAZIZ Abdalla        | Egypt                         | Karate                |
+
 
 
 
