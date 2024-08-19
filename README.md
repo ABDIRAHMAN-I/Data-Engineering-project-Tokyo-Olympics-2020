@@ -187,15 +187,21 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 ## Create a storage account
 - create storage account
+![Create storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20storage%20account.png)
 - create a container and put two folders in there one for the raw data and the other for the transformed data.
-
+![create container](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20container.png)
 ## Create data factory
 - create data factory to ingest data into storage account
-- create a self hosted integration runtime in order to connect to your on-premise data 
+![create data factory](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20data%20factory.png)
+- create a self hosted integration runtime in order to connect to your on-premise data
+![Integration runtime](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20self%20hosted%20integration%20runtime.png)
 - create a linked service which is linked to your laptop
+![Linked service](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20linked%20service.png)
 - create your pipeline to ingest data into your storage account from your laptop
-- configure the source 
-- configure the sink
+![Create pipeline](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20your%20pipeline.png)
+- Check files have been uploaded to storage account in the raw data folder inside your container
+![raw data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/raw%20data%20in%20storage%20account.png)
+
 
 
 ## Data Transformation 
