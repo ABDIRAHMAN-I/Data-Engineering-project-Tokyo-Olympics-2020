@@ -190,6 +190,9 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 ![Create storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20storage%20account.png)
 - create a container and put two folders in there one for the raw data and the other for the transformed data.
 ![create container](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20container.png)
+
+
+
 ## Create data factory
 - create data factory to ingest data into storage account
 ![create data factory](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20data%20factory.png)
@@ -215,9 +218,10 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 ![connect your Databricks to your storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/connect%20your%20Databricks%20to%20your%20storage%20account.png)
 - read your data on notebooks
 ![read your data on notebooks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/read%20your%20data%20on%20notebooks.png)
+
+
 - start transforming the data 
 What do we expect the transformed data to look like? (What should it contain? What contraints should we apply to it?)
-
 The aim is to refine our dataset to ensure it is structured and ready for analysis. 
 
 The transformed data should meet the following criteria and constraints:
@@ -261,4 +265,21 @@ DataFrame with Renamed Columns:
 
 
 - Move your transformed data into the **transformed data folder** in your ADLS storage account
+  
+![move your transformed data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/move%20your%20transformed%20data%20into%20the%20transformed%20data%20folder%20in%20your%20ADLS.png)
+
+
+# Analysis
+- create synapse analytics workspace
+- create a database on synapse
+- create an external table
+- use SQL to query the data
+
+
+# Visualization
+- download the data and upload to powerBI
+- create a dashboard
+
+
+
 
