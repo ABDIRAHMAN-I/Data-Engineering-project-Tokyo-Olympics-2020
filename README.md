@@ -8,12 +8,12 @@
 
 # Table of contents 
 
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-  - [Mockup](#mockup)
+  - [Dashboard mockup](#dashboard-mockup)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
@@ -30,7 +30,7 @@
   - [DAX Measures](#dax-measures)
 - [Conclusion](#conclusion)
 
-# Introduction
+## Introduction
 
 ### Building an End-to-End Azure Data Engineering Project
 
@@ -52,7 +52,7 @@ This project aims to demonstrate a comprehensive data engineering workflow using
 
 Each step leverages the capabilities of Azure's data services to ensure a seamless and efficient data engineering process. This project will provide a comprehensive understanding of the end-to-end workflow, from data extraction and transformation to analysis and visualization.
 
-# Objective 
+## Objective 
 
 - What is the primary challenge? 
 
