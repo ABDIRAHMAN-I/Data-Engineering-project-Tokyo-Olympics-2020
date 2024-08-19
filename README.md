@@ -207,9 +207,14 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 ## Data Transformation 
 
 - create databricks
-- create a compute (because our spark code needs to run somewhere)
+![databricks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20databricks.png)
+- create a compute cluster (because our spark code needs to run somewhere)
+![compute cluster](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20cluster.png)
+![compute cluster](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20compute.png)
 - configure the notebook to connect your Databricks to your storage account
+![connect your Databricks to your storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/connect%20your%20Databricks%20to%20your%20storage%20account.png)
 - read your data on notebooks
+![read your data on notebooks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/read%20your%20data%20on%20notebooks.png)
 - start transforming the data 
 What do we expect the transformed data to look like? (What should it contain? What contraints should we apply to it?)
 
