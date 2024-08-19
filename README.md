@@ -271,10 +271,25 @@ DataFrame with Renamed Columns:
 
 # Analysis
 - create synapse analytics workspace
+
+![create synapse analytics workspace](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20synapse%20analytics%20workspace.png)
+
 - create a database on synapse
+
+![create a database on synapse](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20database.png)
+
+
 - create an external table
+
+![create an external table](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20an%20external%20table%201.png)
+
+![create an external table](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20an%20external%20table%202.png)
+
 - use SQL to query the data
 
+![SQL to query the data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/use%20SQL%20to%20query%20the%20data%201.png)
+
+![SQL to query the data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/use%20SQL%20to%20query%20the%20data%202.png)
 
 # Visualization
 - download the data and upload to powerBI
