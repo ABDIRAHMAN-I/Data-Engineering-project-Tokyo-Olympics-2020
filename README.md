@@ -28,9 +28,6 @@
 - [Visualization](#visualization)
   - [Results](#results)
   - [DAX Measures](#dax-measures)
-- [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
 - [Conclusion](#conclusion)
 
 # Introduction
@@ -298,6 +295,6 @@ DataFrame with Renamed Columns:
 
 - create a dashboard
 
-![Tokyo Olympics project](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Tokyo%20Olympics%20project.pdf)
+![Tokyo Olympics dashboard](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Tokyo%20Olympics%20dashboard.PNG)
 
 
