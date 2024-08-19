@@ -293,8 +293,11 @@ DataFrame with Renamed Columns:
 
 # Visualization
 - download the data and upload to powerBI
+
+![download the data and upload to powerBI](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/download%20the%20data%20and%20upload%20to%20powerBI.png)
+
 - create a dashboard
 
-
+![Tokyo Olympics project](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Tokyo%20Olympics%20project.pdf)
 
 
