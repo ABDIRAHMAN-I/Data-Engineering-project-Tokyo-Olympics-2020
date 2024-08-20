@@ -96,7 +96,7 @@ We need data on the performance of countries in the 2020 Olympics that includes:
 - most popular sports 
 
   
-- Where is the data coming from? The data is sourced from Kaggle (an Excel extract). [see here to find it.](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
+Where is the data coming from? The data is sourced from Kaggle (an Excel extract). [see here to find it.](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
 
 
 
@@ -157,7 +157,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
 ### Pseudocode
 
-- What's the general approach in creating this solution from start to finish?
+What's the general approach in creating this solution from start to finish?
 
 1. Get the data from kaggle
 2. Explore the data in Excel
@@ -175,7 +175,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc  
 
 
-- What are your initial observations with this dataset? What's caught your attention so far? 
+What are your initial observations with this dataset? What's caught your attention so far? 
 
 1. There are at least 3 Tables that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data. 
 2. There are some columns that have errors and need to be renamed correctly.
