@@ -218,17 +218,13 @@ What are your initial observations with this dataset? What's caught your attenti
 ![read your data on notebooks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/read%20your%20data%20on%20notebooks.png)
 
 
-- start transforming the data 
+## start transforming the data 
 What do we expect the transformed data to look like? (What should it contain? What contraints should we apply to it?)
 The aim is to refine our dataset to ensure it is structured and ready for analysis. 
 
 The transformed data should meet the following criteria and constraints:
 
-- Rename column names correctly using this code **athletes = athletes.withColumnRenamed("NOC", "Country")**
-
-
-print("DataFrame with Renamed Columns:")
-athletes.show()
+1. Rename column names correctly using this code **athletes = athletes.withColumnRenamed("NOC", "Country")**
 
 DataFrame with Renamed Columns:
 | Name                    | Country                       | Discipline            |
@@ -256,7 +252,7 @@ DataFrame with Renamed Columns:
 
 
 
-- fix all the schemas using this code **.option("inferSchema","true")**
+2. fix all the schemas using this code **.option("inferSchema","true")**
 
 ![Fix the schemas](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/fix%20schemas.png)
 
