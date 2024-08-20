@@ -9,18 +9,24 @@
 # Table of contents 
 
 - [Introduction](#introduction)
+   - [Building an End-to-End Azure Data Engineering Project](#building-an-end-to-End-azure-data-engineering-project)
 - [Objective](#objective)
+   - [What is the primary challenge?](what-is-the-primary-challenge?)
+   - [What is the ideal solution?](what-is-the-ideal-solution?)
+   - [User story](user-story)
 - [Data Source](#data-source)
+   - [What data is needed to achieve our objective?](what-data-is-needed-to-achieve-our-objective?)
 - [Stages](#stages)
 - [Design](#design)
+  - [Dashboard components required](dashboard-components-required)
   - [Dashboard mockup](#dashboard-mockup)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
   - [Data Exploration](#data-exploration)
-  - [Create a storage account](#Create-a-storage-account)
-  - [Create data factory](#Create-data-factory)
-  - [Data Transformation](#Data-Transformation )
+  - [Create a storage account](#create-a-storage-account)
+  - [Create data factory](#create-data-factory)
+  - [Data Transformation](#data-transformation )
 - [Analysis](#analysis)
   - [Findings](#findings)
   - [Validation](#validation)
@@ -30,7 +36,7 @@
   - [DAX Measures](#dax-measures)
 - [Conclusion](#conclusion)
 
-## Introduction
+# Introduction
 
 ### Building an End-to-End Azure Data Engineering Project
 
@@ -52,14 +58,14 @@ This project aims to demonstrate a comprehensive data engineering workflow using
 
 Each step leverages the capabilities of Azure's data services to ensure a seamless and efficient data engineering process. This project will provide a comprehensive understanding of the end-to-end workflow, from data extraction and transformation to analysis and visualization.
 
-## Objective 
+# Objective 
 
-- What is the primary challenge? 
+### What is the primary challenge? 
 
 The Head of Marketing wants to analyze the performance of different countries in the 2020 Olympics to decide on which countries would be best to target for marketing campaigns in future sports events.
 
 
-- What is the ideal solution? 
+### What is the ideal solution? 
 
 To create a dashboard that provides insights into the performance of various countries in the 2020 Olympics. The dashboard should include:
 - Total medals won by each country
@@ -70,7 +76,7 @@ To create a dashboard that provides insights into the performance of various cou
 This will help the marketing team make informed decisions about which countries to focus on for future marketing campaigns related to sports events.
 
 
-## User story 
+### User story 
 
 As the Head of Marketing, I want to use a dashboard that analyzes the performance data of countries in the 2020 Olympics.
 
@@ -81,7 +87,7 @@ With this information, I can make more informed decisions about which countries 
 
 # Data source 
 
-- What data is needed to achieve our objective?
+### What data is needed to achieve our objective?
 
 We need data on the performance of countries in the 2020 Olympics that includes:
 
@@ -110,7 +116,7 @@ We need data on the performance of countries in the 2020 Olympics that includes:
 
 # Design 
 
-## Dashboard components required 
+### Dashboard components required 
 
 What should the dashboard contain based on the requirements provided?
 
@@ -124,7 +130,7 @@ To understand what it should contain, we need to figure out what questions we ne
 For now, these are some of the questions we need to answer; this may change as we progress through our analysis. 
 
 
-## Dashboard mockup
+### Dashboard mockup
 
 What should it look like?
 
@@ -137,7 +143,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 ![Dashboard-Mockup](https://github.com/ABDIRAHMAN-I/Olympic-2021-data/blob/main/assets/images/Mock%20up%20dashboard%20tokyo%20olympics.png)
 
 
-## Tools 
+### Tools 
 
 | Tool | Purpose |
 | --- | --- |
@@ -154,7 +160,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
 # Development
 
-## Pseudocode
+### Pseudocode
 
 - What's the general approach in creating this solution from start to finish?
 
@@ -169,7 +175,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 9. Publish the data to GitHub Pages
 
 
-## Data exploration notes
+### Data exploration
 
 This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc  
 
@@ -182,7 +188,7 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 
 
-## Create a storage account
+### Create a storage account
 - create storage account
 ![Create storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20storage%20account.png)
 - create a container and put two folders in there one for the raw data and the other for the transformed data.
@@ -190,7 +196,7 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 
 
-## Create data factory
+### Create data factory
 - create data factory to ingest data into storage account
 ![create data factory](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20data%20factory.png)
 - create a self hosted integration runtime in order to connect to your on-premise data
@@ -204,7 +210,7 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 
 
-## Data Transformation 
+### Data Transformation 
 
 - create databricks
 ![databricks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20databricks.png)
@@ -297,4 +303,5 @@ DataFrame with Renamed Columns:
 
 ![Tokyo Olympics dashboard](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Tokyo%20Olympics%20dashboard.PNG)
 
+# Conclusion 
 
