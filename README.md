@@ -11,7 +11,7 @@
 - [Introduction](#introduction)
    - [Building an End-to-End Azure Data Engineering Project](#building-an-end-to-End-azure-data-engineering-project)
 - [Objective](#objective)
-   - [What is the primary challenge?](what-is-the-primary-challenge?)
+   - [What is the primary challenge?](what-is-the-primary-challenge)
    - [What is the ideal solution?](what-is-the-ideal-solution?)
    - [User story](user-story)
 - [Data Source](#data-source)
