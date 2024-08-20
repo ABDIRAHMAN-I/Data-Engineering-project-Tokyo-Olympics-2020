@@ -28,12 +28,7 @@
   - [Create data factory](#create-data-factory)
   - [Data Transformation](#data-transformation )
 - [Analysis](#analysis)
-  - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
 - [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measures](#dax-measures)
 - [Conclusion](#conclusion)
 
 # Introduction
