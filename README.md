@@ -29,7 +29,6 @@
   - [Data Transformation](#data-transformation )
 - [Analysis](#analysis)
 - [Visualization](#visualization)
-- [Conclusion](#conclusion)
 
 # Introduction
 
@@ -294,5 +293,5 @@ DataFrame with Renamed Columns:
 
 ![Tokyo Olympics dashboard](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Tokyo%20Olympics%20dashboard.PNG)
 
-# Conclusion 
+
 
