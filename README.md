@@ -228,26 +228,26 @@ The transformed data should meet the following criteria and constraints:
 DataFrame with Renamed Columns:
 | Name                    | Country                       | Discipline            |
 |-------------------------|-------------------------------|-----------------------|
-| AALERUD Katrine          | Norway                        | Cycling Road          |
-| ABAD Nestor              | Spain                         | Artistic Gymnastics   |
-| ABAGNALE Giovanni        | Italy                         | Rowing                |
-| ABALDE Alberto           | Spain                         | Basketball            |
-| ABALDE Tamara            | Spain                         | Basketball            |
-| ABALO Luc                | France                        | Handball              |
-| ABAROA Cesar             | Chile                         | Rowing                |
-| ABASS Abobakr            | Sudan                         | Swimming              |
-| ABBASALI Hamideh         | Islamic Republic of Iran      | Karate                |
-| ABBASOV Islam            | Azerbaijan                    | Wrestling             |
-| ABBINGH Lois             | Netherlands                   | Handball              |
-| ABBOT Emily              | Australia                     | Rhythmic Gymnastics   |
-| ABBOTT Monica            | United States of America      | Baseball/Softball     |
-| ABDALLA Abubaker Haydar  | Qatar                         | Athletics             |
-| ABDALLA Maryam           | Egypt                         | Artistic Swimming     |
-| ABDALLAH Shahd           | Egypt                         | Artistic Swimming     |
-| ABDALRASOOL Mohamed      | Sudan                         | Judo                  |
-| ABDEL LATIF Radwa        | Egypt                         | Shooting              |
-| ABDEL RAZEK Samy         | Egypt                         | Shooting              |
-| ABDELAZIZ Abdalla        | Egypt                         | Karate                |
+| AALERUD Katrine         | Norway                        | Cycling Road          |
+| ABAD Nestor             | Spain                         | Artistic Gymnastics   |
+| ABAGNALE Giovanni       | Italy                         | Rowing                |
+| ABALDE Alberto          | Spain                         | Basketball            |
+| ABALDE Tamara           | Spain                         | Basketball            |
+| ABALO Luc               | France                        | Handball              |
+| ABAROA Cesar            | Chile                         | Rowing                |
+| ABASS Abobakr           | Sudan                         | Swimming              |
+| ABBASALI Hamideh        | Islamic Republic of Iran      | Karate                |
+| ABBASOV Islam           | Azerbaijan                    | Wrestling             |
+| ABBINGH Lois            | Netherlands                   | Handball              |
+| ABBOT Emily             | Australia                     | Rhythmic Gymnastics   |
+| ABBOTT Monic            | United States of America      | Baseball/Softball     |
+| ABDALLA Abubaker Haydar | Qatar                         | Athletics             |
+| ABDALLA Maryam          | Egypt                         | Artistic Swimming     |
+| ABDALLAH Shahd          | Egypt                         | Artistic Swimming     |
+| ABDALRASOOL Mohamed     | Sudan                         | Judo                  |
+| ABDEL LATIF Radwa       | Egypt                         | Shooting              |
+| ABDEL RAZEK Samy        | Egypt                         | Shooting              |
+| ABDELAZIZ Abdalla       | Egypt                         | Karate                |
 
 
 
