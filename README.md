@@ -184,37 +184,37 @@ What are your initial observations with this dataset? What's caught your attenti
 
 ### Create a storage account
 - create storage account
-![Create storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20storage%20account.png)
+![Create storage account](assets/images/create-storage-account.png)
 - create a container and put two folders in there one for the raw data and the other for the transformed data.
-![create container](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20container.png)
+![create container](assets/images/create-a-container.png)
 
 
 
 ### Create data factory
 - create data factory to ingest data into storage account
-![create data factory](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20data%20factory.png)
+![create data factory](assets/images/create-data-factory.png)
 - create a self hosted integration runtime in order to connect to your on-premise data
-![Integration runtime](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20self%20hosted%20integration%20runtime.png)
+![Integration runtime](assets/images/create-a-self-hosted-integration-runtime.png)
 - create a linked service which is linked to your laptop
-![Linked service](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20linked%20service.png)
+![Linked service](assets/images/create-a-linked-service.png)
 - create your pipeline to ingest data into your storage account from your laptop
-![Create pipeline](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20your%20pipeline.png)
+![Create pipeline](assets/images/create-your-pipeline.png)
 - Check files have been uploaded to storage account in the raw data folder inside your container
-![raw data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/raw%20data%20in%20storage%20account.png)
+![raw data](assets/images/ingest-data-into-your-storage-account.png)
 
 
 
 ### Data Transformation 
 
 - create databricks
-![databricks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20databricks.png)
+![databricks](assets/images/create-databricks.png)
 - create a compute cluster (because our spark code needs to run somewhere)
-![compute cluster](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20cluster.png)
-![compute cluster](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20compute.png)
+![compute cluster](assets/images/create-a-cluster.png)
+![compute cluster](assets/images/create-a-compute.png)
 - configure the notebook to connect your Databricks to your storage account
-![connect your Databricks to your storage account](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/connect%20your%20Databricks%20to%20your%20storage%20account.png)
+![connect your Databricks to your storage account](assets/images/connect-your-Databricks-to-your-storage-account.png)
 - read your data on notebooks
-![read your data on notebooks](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/read%20your%20data%20on%20notebooks.png)
+![read your data on notebooks](assets/images/read-your-data-on-notebooks.png)
 
 
 ## start transforming the data 
@@ -253,45 +253,45 @@ DataFrame with Renamed Columns:
 
 2. fix all the schemas using this code **.option("inferSchema","true")**
 
-![Fix the schemas](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/fix%20schemas.png)
+![Fix the schemas](assets/images/fix-schemas.png)
 
 
 
 - Move your transformed data into the **transformed data folder** in your ADLS storage account
   
-![move your transformed data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/move%20your%20transformed%20data%20into%20the%20transformed%20data%20folder%20in%20your%20ADLS.png)
+![move your transformed data](assets/images/move-your-transformed-data-into-the-transformed-data-folder-in-your-ADLS.png)
 
 
 # Analysis
 - create synapse analytics workspace
 
-![create synapse analytics workspace](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20synapse%20analytics%20workspace.png)
+![create synapse analytics workspace](assets/images/create-synapse-analytics-workspace.png)
 
 - create a database on synapse
 
-![create a database on synapse](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20a%20database.png)
+![create a database on synapse](assets/images/create-a-database.png)
 
 
 - create an external table
 
-![create an external table](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20an%20external%20table%201.png)
+![create an external table](assets/images/create-an-external-table-1.png)
 
-![create an external table](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/create%20an%20external%20table%202.png)
+![create an external table](assets/images/create-an-external-table-2.png)
 
 - use SQL to query the data
 
-![SQL to query the data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/use%20SQL%20to%20query%20the%20data%201.png)
+![SQL to query the data](assets/images/use-SQL-to-query-the-data-1.png)
 
-![SQL to query the data](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/use%20SQL%20to%20query%20the%20data%202.png)
+![SQL to query the data](assets/images/use-SQL-to-query-the-data-2.png)
 
 # Visualization
-- download the data and upload to powerBI
+- download the data and upload it to PowerBI
 
-![download the data and upload to powerBI](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/download%20the%20data%20and%20upload%20to%20powerBI.png)
+![download the data and upload to powerBI](assets/images/download-the-data-and-upload-to-powerBI.png)
 
 - create a dashboard
 
-![Tokyo Olympics dashboard](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Tokyo%20Olympics%20dashboard.PNG)
+![Tokyo Olympics dashboard](assets/images/Tokyo-Olympics-dashboard.PNG)
 
 
 
