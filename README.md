@@ -134,7 +134,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 - martix table
 - tree map
 
-![Dashboard-Mockup](https://github.com/ABDIRAHMAN-I/Olympic-2021-data/blob/main/assets/images/Mock%20up%20dashboard%20tokyo%20olympics.png)
+![Dashboard-Mockup](https://github.com/ABDIRAHMAN-I/Tokyo-Olympics-2020-project/blob/main/assets/images/Mock%20up%20dashboard%20tokyo%20olympics.png)
 
 
 ### Tools 
