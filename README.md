@@ -218,10 +218,12 @@ What are your initial observations with this dataset? What's caught your attenti
 
 
 ## start transforming the data 
-What do we expect the transformed data to look like? (What should it contain? What contraints should we apply to it?)
+What do we expect the transformed data to look like, what should it contain and what constraints should we apply to it?
+
 The aim is to refine our dataset to ensure it is structured and ready for analysis. 
 
 The transformed data should meet the following criteria and constraints:
+
 
 1. Rename column names correctly using this code **athletes = athletes.withColumnRenamed("NOC", "Country")**
 
