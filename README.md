@@ -226,8 +226,9 @@ The transformed data should meet the following criteria and constraints:
 1. Rename column names correctly using this code **athletes = athletes.withColumnRenamed("NOC", "Country")**
 
 DataFrame with Renamed Columns:
-| Name                    | Country                       | Discipline            |
-|-------------------------|-------------------------------|-----------------------|
+
+| Name | Country | Discipline |
+|---|---|---|
 | AALERUD Katrine         | Norway                        | Cycling Road          |
 | ABAD Nestor             | Spain                         | Artistic Gymnastics   |
 | ABAGNALE Giovanni       | Italy                         | Rowing                |
