@@ -103,8 +103,8 @@ Where is the data coming from? The data is sourced from Kaggle (an Excel extract
 
 - Design
 - Developement
-- Testing
-- Analysis 
+- Analysis
+- Visualization
  
 
 
