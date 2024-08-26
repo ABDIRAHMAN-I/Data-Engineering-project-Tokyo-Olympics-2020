@@ -217,7 +217,7 @@ What are your initial observations with this dataset? What's caught your attenti
 ![read your data on notebooks](assets/images/read-your-data-on-notebooks.png)
 
 
-## start transforming the data 
+### Transforming the data 
 What do we expect the transformed data to look like, what should it contain and what constraints should we apply to it?
 
 The aim is to refine our dataset to ensure it is structured and ready for analysis. 
