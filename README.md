@@ -1,4 +1,4 @@
-# Data Engineering project: Tokyo Olympics 2020
+# End-to-End Azure Data Engineering Project: Tokyo Olympics 2020
 
 
 ![data architecture](https://github.com/user-attachments/assets/73b0caed-daae-4101-9822-6f93808506b5)
